@@ -1,0 +1,44 @@
+#root {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.15rem;
+  font-size: 1rem;
+  margin-block-end: 1rem;
+}
+
+input[type="checkbox"] {
+  margin-inline-end: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  width: 100%;
+  padding: 0.85rem;
+  background-color: cadetblue;
+  margin-block-end: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #2b2727;
+  opacity: 0.5;
+}
+
+li:hover {
+  background-color: #517a7b;
+  cursor: pointer;
+}
